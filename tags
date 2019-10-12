@@ -1,0 +1,353 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AvlTree	tree/avltree/avltree.h	/^        AvlTree(compare_t cmp, print_t p) : compare_(cmp), print_(p), root_(NULL) {$/;"	f	class:AvlTree
+AvlTree	tree/avltree/avltree.h	/^class AvlTree {$/;"	c
+BIN_DIR	list/circular_list/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	list/double_list/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	list/linked_list/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	queue/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	sort/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	tree/avltree/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	tree/bsttree/Makefile	/^BIN_DIR=bin$/;"	m
+BIN_DIR	tree/tree/Makefile	/^BIN_DIR=bin$/;"	m
+BinaryTree	tree/tree/binary.h	/^BinaryTree<T>::BinaryTree(T* oth, T* mid, built_t t, int size, print_t p, compare_t cmp) : $/;"	f	class:BinaryTree
+BinaryTree	tree/tree/binary.h	/^class BinaryTree {$/;"	c
+BlankListError	list/double_list/double_list.h	/^class BlankListError : public std::exception {$/;"	c
+BstTree	tree/bsttree/bsttree.h	/^BstTree<T>::BstTree(print_t p, compare_t cmp) : $/;"	f	class:BstTree
+BstTree	tree/bsttree/bsttree.h	/^class BstTree {$/;"	c
+BtNode	tree/btree/btree.h	/^BtNode<T>::BtNode(int t, bool leaf) : key_nums_(t), leaf_(leaf) {$/;"	f	class:BtNode
+BtNode	tree/btree/btree.h	/^class BtNode {$/;"	c
+Btree	tree/btree/btree.h	/^class Btree {$/;"	c
+BuildTreeByBSTLvlOrder	tree/tree/binary.h	/^    BuildTreeByBSTLvlOrder,$/;"	e	enum:built_e
+BuildTreeByHeapSortOrder	tree/tree/binary.h	/^    BuildTreeByHeapSortOrder,$/;"	e	enum:built_e
+BuildTreeByMidAndLvlOrder	tree/tree/binary.h	/^    BuildTreeByMidAndLvlOrder,$/;"	e	enum:built_e
+BuildTreeByMidAndPreOrder	tree/tree/binary.h	/^    BuildTreeByMidAndPreOrder = 0,$/;"	e	enum:built_e
+BuildTreeByMidAndPstOrder	tree/tree/binary.h	/^    BuildTreeByMidAndPstOrder,$/;"	e	enum:built_e
+CC	list/circular_list/Makefile	/^CC = g++$/;"	m
+CC	list/double_list/Makefile	/^CC = g++$/;"	m
+CC	list/linked_list/Makefile	/^CC = g++$/;"	m
+CC	queue/Makefile	/^CC = g++$/;"	m
+CC	sort/Makefile	/^CC = g++$/;"	m
+CC	tree/avltree/Makefile	/^CC = g++$/;"	m
+CC	tree/bsttree/Makefile	/^CC = g++$/;"	m
+CC	tree/tree/Makefile	/^CC = g++$/;"	m
+CPPFLAGS	list/circular_list/Makefile	/^CPPFLAGS=-I .\/$/;"	m
+CPPFLAGS	list/double_list/Makefile	/^CPPFLAGS=-I .\/$/;"	m
+CPPFLAGS	list/linked_list/Makefile	/^CPPFLAGS=-I .\/$/;"	m
+CPPFLAGS	queue/Makefile	/^CPPFLAGS=-I .\/$/;"	m
+CPPFLAGS	sort/Makefile	/^CPPFLAGS=-I .\/$/;"	m
+CPPFLAGS	tree/avltree/Makefile	/^CPPFLAGS=-I .\/ -I ..\/list\/queue$/;"	m
+CPPFLAGS	tree/bsttree/Makefile	/^CPPFLAGS=-I .\/ -I ..\/list\/queue$/;"	m
+CPPFLAGS	tree/tree/Makefile	/^CPPFLAGS=-I .\/ -I ..\/list\/queue$/;"	m
+CXXFLAGS	list/circular_list/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	list/double_list/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	list/linked_list/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	queue/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	sort/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	tree/avltree/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	tree/bsttree/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CXXFLAGS	tree/tree/Makefile	/^CXXFLAGS = --std=c++11$/;"	m
+CircularList	list/circular_list/circular_list.h	/^CircularList<T>::CircularList() : tail_(nullptr), size_(0) {$/;"	f	class:CircularList
+CircularList	list/circular_list/circular_list.h	/^class CircularList {$/;"	c
+DEBUG	tree/avltree/avltree.h	/^#define DEBUG /;"	d
+DoubleList	list/double_list/double_list.h	/^DoubleList<T>::DoubleList() : head_(nullptr), tail_(nullptr) {$/;"	f	class:DoubleList
+DoubleList	list/double_list/double_list.h	/^class DoubleList {$/;"	c
+EmptyException	queue/queue.h	/^class EmptyException : std::exception {$/;"	c
+FullException	queue/queue.h	/^class FullException : std::exception {$/;"	c
+IndexOutError	list/linked_list/list.h	/^class IndexOutError : public std::exception {$/;"	c
+IndexOutException	list/circular_list/circular_list.h	/^class IndexOutException : public std::exception {$/;"	c
+LAST_PARENT	sort/sort.h	/^#define LAST_PARENT(/;"	d
+LEFT	sort/sort.h	/^#define LEFT(/;"	d
+List	list/linked_list/list.h	/^List<T>::List() {$/;"	f	class:List
+List	list/linked_list/list.h	/^class List {$/;"	c
+MAX_NODE_OF_HIGH	tree/avltree/common.h	/^#define MAX_NODE_OF_HIGH(/;"	d
+MAX_NODE_OF_HIGH	tree/bsttree/common.h	/^#define MAX_NODE_OF_HIGH(/;"	d
+MAX_NODE_OF_HIGH	tree/tree/common.h	/^#define MAX_NODE_OF_HIGH(/;"	d
+MAX_NODE_OF_LEVEL	tree/avltree/common.h	/^#define MAX_NODE_OF_LEVEL(/;"	d
+MAX_NODE_OF_LEVEL	tree/bsttree/common.h	/^#define MAX_NODE_OF_LEVEL(/;"	d
+MAX_NODE_OF_LEVEL	tree/tree/common.h	/^#define MAX_NODE_OF_LEVEL(/;"	d
+MemoryException	list/circular_list/circular_list.h	/^class MemoryException : public std::exception {$/;"	c
+MemoryNodeError	list/linked_list/list.h	/^class MemoryNodeError : public std::exception {$/;"	c
+Node	list/circular_list/circular_list.h	/^class Node {$/;"	c
+Node	list/double_list/double_list.h	/^        Node(T data) : data(data), pre(nullptr), next(nullptr) {}$/;"	f	class:Node
+Node	list/double_list/double_list.h	/^class Node {$/;"	c
+Node	list/linked_list/list.h	/^class Node {$/;"	c
+Node	tree/avltree/avltree.h	/^        Node(T d) : data(d), height(1), l_child(NULL), r_child(NULL) {$/;"	f	class:Node
+Node	tree/avltree/avltree.h	/^class Node {$/;"	c
+Node	tree/bsttree/bsttree.h	/^        Node(T d) : data(d), l_child(NULL), r_child(NULL) {}$/;"	f	class:Node
+Node	tree/bsttree/bsttree.h	/^class Node {$/;"	c
+Node	tree/tree/binary.h	/^        Node(T d) : data(d), l_child(nullptr), r_child(nullptr) {}$/;"	f	class:Node
+Node	tree/tree/binary.h	/^class Node {$/;"	c
+NodeNotFoundError	list/double_list/double_list.h	/^class NodeNotFoundError : public std::exception {$/;"	c
+NullNodeError	list/linked_list/list.h	/^class NullNodeError : public std::exception {$/;"	c
+OBJ	list/circular_list/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	list/double_list/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	list/linked_list/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	queue/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	sort/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	tree/avltree/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	tree/bsttree/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ	tree/tree/Makefile	/^OBJ =$(subst .cc,.o,$(SRC))$/;"	m
+OBJ_DIR	list/circular_list/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	list/double_list/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	list/linked_list/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	queue/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	sort/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	tree/avltree/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	tree/bsttree/Makefile	/^OBJ_DIR=obj$/;"	m
+OBJ_DIR	tree/tree/Makefile	/^OBJ_DIR=obj$/;"	m
+OutBoundaryError	list/double_list/double_list.h	/^class OutBoundaryError : public std::exception {$/;"	c
+PARENT	sort/sort.h	/^#define PARENT(/;"	d
+Queue	queue/queue.h	/^Queue<T, cap>::Queue() : len_(0), front_(0), rear_(cap-1) {$/;"	f	class:Queue
+Queue	queue/queue.h	/^class Queue {$/;"	c
+RIGHT	sort/sort.h	/^#define RIGHT(/;"	d
+SIZE	sort/main.cc	/^#define SIZE /;"	d	file:
+SRC	list/circular_list/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	list/double_list/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	list/linked_list/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	queue/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	sort/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	tree/avltree/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	tree/bsttree/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+SRC	tree/tree/Makefile	/^SRC = $(wildcard *.cc)$/;"	m
+Search	search/search.h	/^        Search(compare_equal_t e) : compare_equal_(e) {}$/;"	f	class:Search
+Search	search/search.h	/^class Search {$/;"	c
+Sort	sort/sort.h	/^Sort<T, size>::Sort(compare_data_t m, swap_t s) : compare_data_(m), swap_(s) {$/;"	f	class:Sort
+Sort	sort/sort.h	/^Sort<T, size>::Sort(compare_t m, swap_t s) : compare_(m), swap_(s) {$/;"	f	class:Sort
+Sort	sort/sort.h	/^class Sort {$/;"	c
+TARGET	list/circular_list/Makefile	/^TARGET=circular_list$/;"	m
+TARGET	list/double_list/Makefile	/^TARGET=double_list$/;"	m
+TARGET	list/linked_list/Makefile	/^TARGET=single_list$/;"	m
+TARGET	queue/Makefile	/^TARGET=circular_list$/;"	m
+TARGET	sort/Makefile	/^TARGET=sort$/;"	m
+TARGET	tree/avltree/Makefile	/^TARGET=avl_tree$/;"	m
+TARGET	tree/bsttree/Makefile	/^TARGET=bst_tree$/;"	m
+TARGET	tree/tree/Makefile	/^TARGET=binary_tree$/;"	m
+TREE_DEBUG	tree/bsttree/bsttree.h	/^#define TREE_DEBUG /;"	d
+TREE_DEBUG	tree/tree/binary.h	/^#define TREE_DEBUG /;"	d
+_AVL_TREE_H_	tree/avltree/avltree.h	/^#define _AVL_TREE_H_$/;"	d
+_BINARY_H_	tree/tree/binary.h	/^#define _BINARY_H_$/;"	d
+_BST_TREE_H_	tree/bsttree/bsttree.h	/^#define _BST_TREE_H_$/;"	d
+_BTREE_H_	tree/btree/btree.h	/^#define _BTREE_H_$/;"	d
+_CIRCULAR_LIST_H_	list/circular_list/circular_list.h	/^#define _CIRCULAR_LIST_H_$/;"	d
+_COMMON_H_	sort/common.h	/^#define _COMMON_H_$/;"	d
+_COMMON_H_	tree/avltree/common.h	/^#define _COMMON_H_$/;"	d
+_COMMON_H_	tree/bsttree/common.h	/^#define _COMMON_H_$/;"	d
+_COMMON_H_	tree/tree/common.h	/^#define _COMMON_H_$/;"	d
+_DOUBLE_LIST_H_	list/double_list/double_list.h	/^#define _DOUBLE_LIST_H_$/;"	d
+_LIST_H_	list/linked_list/list.h	/^#define _LIST_H_$/;"	d
+_QUEUE_H_	queue/queue.h	/^#define _QUEUE_H_$/;"	d
+_QUEUE_H_	queue/queue_safe.h	/^#define _QUEUE_H_$/;"	d
+_SEARCH_H_	search/search.h	/^#define _SEARCH_H_$/;"	d
+_SORT_H_	sort/sort.h	/^#define _SORT_H_$/;"	d
+_balance	tree/avltree/avltree.h	/^int AvlTree<T>::_balance(Node<T>* node) {$/;"	f	class:AvlTree
+_binary_search	search/search.h	/^int Search<T>::_binary_search(T *data, int l, int r, T d) {$/;"	f	class:Search
+_breadth_traverse	tree/tree/binary.h	/^void BinaryTree<T>::_breadth_traverse(Node<T>* n) {$/;"	f	class:BinaryTree
+_bst_delete	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_bst_delete(Node<T>* node, T data) {$/;"	f	class:BinaryTree
+_bst_insert	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_bst_insert(Node<T>* node, T data) {$/;"	f	class:BinaryTree
+_buildTreeWithBstLvlOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_buildTreeWithBstLvlOrder(T* bst, int size) {$/;"	f	class:BinaryTree
+_buildTreeWithHeapSortOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_buildTreeWithHeapSortOrder(T* oth, int size) {$/;"	f	class:BinaryTree
+_buildTreeWithLvlMidOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_buildTreeWithLvlMidOrder(T* lvl, T* mid, int start, int end, int len) {$/;"	f	class:BinaryTree
+_buildTreeWithPostMidOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_buildTreeWithPostMidOrder(T* pst, T* mid, int start, int end) {$/;"	f	class:BinaryTree
+_buildTreeWithPreMidOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_buildTreeWithPreMidOrder(T* pre, T* mid, int start, int end) {$/;"	f	class:BinaryTree
+_build_heap	sort/sort.h	/^void Sort<T, size>::_build_heap(T* a) {$/;"	f	class:Sort
+_constructWithBstLvlOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_constructWithBstLvlOrder(Node<T> *r, T data) {$/;"	f	class:BinaryTree
+_constructWithHeapSortOrder	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_constructWithHeapSortOrder(T* oth, int idx, int size) {$/;"	f	class:BinaryTree
+_delete	tree/avltree/avltree.h	/^Node<T>* AvlTree<T>::_delete(Node<T>* node, T data) {$/;"	f	class:AvlTree
+_delete	tree/bsttree/bsttree.h	/^Node<T>* BstTree<T>::_delete(Node<T>* node, T data) {$/;"	f	class:BstTree
+_depth	tree/tree/binary.h	/^size_t BinaryTree<T>::_depth(Node<T>* node) {$/;"	f	class:BinaryTree
+_heapify	sort/sort.h	/^void Sort<T, size>::_heapify(T* a, int len, int i) {$/;"	f	class:Sort
+_height	tree/avltree/avltree.h	/^int AvlTree<T>::_height(Node<T>* node) {$/;"	f	class:AvlTree
+_hknodes	tree/tree/binary.h	/^void BinaryTree<T>::_hknodes(Node<T>* node, int k) {$/;"	f	class:BinaryTree
+_insert	tree/avltree/avltree.h	/^Node<T>* AvlTree<T>::_insert(Node<T>* node, T data) {$/;"	f	class:AvlTree
+_insert	tree/bsttree/bsttree.h	/^Node<T>* BstTree<T>::_insert(Node<T>* node, T data) {$/;"	f	class:BstTree
+_left_rotate	tree/avltree/avltree.h	/^Node<T>* AvlTree<T>::_left_rotate(Node<T>* node) {$/;"	f	class:AvlTree
+_max	tree/avltree/avltree.h	/^int AvlTree<T>::_max(int h1, int h2) {$/;"	f	class:AvlTree
+_merge	sort/sort.h	/^void Sort<T, size>::_merge(T* data, int l, int r, int m) {$/;"	f	class:Sort
+_merge_sort	sort/sort.h	/^void Sort<T, size>::_merge_sort(T* data, int l, int r) {$/;"	f	class:Sort
+_mid_traverse	tree/tree/binary.h	/^void BinaryTree<T>::_mid_traverse(Node<T>* node) {$/;"	f	class:BinaryTree
+_midorder	tree/avltree/avltree.h	/^void AvlTree<T>::_midorder(Node<T>* n) {$/;"	f	class:AvlTree
+_midorder	tree/bsttree/bsttree.h	/^void BstTree<T>::_midorder(Node<T>* node) {$/;"	f	class:BstTree
+_min_node	tree/avltree/avltree.h	/^Node<T>* AvlTree<T>::_min_node(Node<T>* node) {$/;"	f	class:AvlTree
+_min_node	tree/bsttree/bsttree.h	/^Node<T>* BstTree<T>::_min_node(Node<T>* node) {$/;"	f	class:BstTree
+_min_node	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::_min_node(Node<T>* node) {$/;"	f	class:BinaryTree
+_partition	sort/sort.h	/^int Sort<T, size>::_partition(T *data, int low, int high) {$/;"	f	class:Sort
+_post_traverse	tree/tree/binary.h	/^void BinaryTree<T>::_post_traverse(Node<T>* node) {$/;"	f	class:BinaryTree
+_pre_traverse	tree/tree/binary.h	/^void BinaryTree<T>::_pre_traverse(Node<T>* node) {$/;"	f	class:BinaryTree
+_preorder	tree/avltree/avltree.h	/^void AvlTree<T>::_preorder(Node<T>* n) {$/;"	f	class:AvlTree
+_preorder	tree/bsttree/bsttree.h	/^void BstTree<T>::_preorder(Node<T>* node) {$/;"	f	class:BstTree
+_pstorder	tree/bsttree/bsttree.h	/^void BstTree<T>::_pstorder(Node<T>* node) {$/;"	f	class:BstTree
+_quick_sort	sort/sort.h	/^void Sort<T, size>::_quick_sort(T *data, int low, int high) {$/;"	f	class:Sort
+_right_rotate	tree/avltree/avltree.h	/^Node<T>* AvlTree<T>::_right_rotate(Node<T>* node) {$/;"	f	class:AvlTree
+_same_tree_order	tree/tree/binary.h	/^bool _same_tree_order(T* pst, T* pre, T* mid, int size, compare_t cmp) {$/;"	f
+_search	tree/tree/binary.h	/^int BinaryTree<T>::_search(T* mid, T data, int start, int end) {$/;"	f	class:BinaryTree
+_searchMidInLvl	tree/tree/binary.h	/^T* BinaryTree<T>::_searchMidInLvl(T* mid, int start, int end, T* lvl, int len) {$/;"	f	class:BinaryTree
+append	list/circular_list/circular_list.h	/^void CircularList<T>::append(T data) {$/;"	f	class:CircularList
+append	list/double_list/double_list.h	/^void DoubleList<T>::append(T data) {$/;"	f	class:DoubleList
+append	list/linked_list/list.h	/^void List<T>::append(T data) {$/;"	f	class:List
+binary_search	search/search.h	/^int Search<T>::binary_search(T *data, int size, T d) {$/;"	f	class:Search
+breadth_traverse	tree/tree/binary.h	/^void BinaryTree<T>::breadth_traverse() {$/;"	f	class:BinaryTree
+bst_delete	tree/tree/binary.h	/^void BinaryTree<T>::bst_delete(T data) {$/;"	f	class:BinaryTree
+bst_insert	tree/tree/binary.h	/^void BinaryTree<T>::bst_insert(T data) {$/;"	f	class:BinaryTree
+bst_min	tree/tree/binary.h	/^Node<T>* BinaryTree<T>::bst_min() {$/;"	f	class:BinaryTree
+bubble_sort	sort/main.cc	/^void bubble_sort() {$/;"	f
+bubble_sort	sort/sort.h	/^void Sort<T, size>::bubble_sort(T *data) {$/;"	f	class:Sort
+built_e	tree/tree/binary.h	/^typedef enum built_e {$/;"	g
+built_t	tree/tree/binary.h	/^} built_t;$/;"	t	typeref:enum:built_e
+capacity	queue/queue.h	/^size_t Queue<T, cap>::capacity() const {$/;"	f	class:Queue
+chs_	tree/btree/btree.h	/^        BtNode** chs_;$/;"	m	class:BtNode
+compare	sort/main.cc	/^bool compare(void *d, size_t i, size_t j) {$/;"	f
+compare	tree/avltree/main.cc	/^int compare(void* data1, void* data2) {$/;"	f
+compare	tree/bsttree/main.cc	/^int compare(void* d1, void* d2) {$/;"	f
+compare	tree/tree/main.cc	/^int compare(void* d1, void* d2) {$/;"	f
+compare_	sort/sort.h	/^        compare_t compare_;$/;"	m	class:Sort
+compare_	tree/avltree/avltree.h	/^        compare_t compare_;$/;"	m	class:AvlTree
+compare_	tree/bsttree/bsttree.h	/^        compare_t compare_;$/;"	m	class:BstTree
+compare_	tree/tree/binary.h	/^        compare_t compare_;$/;"	m	class:BinaryTree
+compare_data	sort/main.cc	/^bool compare_data(void *d1, void* d2) {$/;"	f
+compare_data_	sort/sort.h	/^        compare_data_t compare_data_;$/;"	m	class:Sort
+compare_data_t	sort/common.h	/^typedef bool (*compare_data_t)(void*, void*);$/;"	t
+compare_equal_	search/search.h	/^        compare_equal_t compare_equal_;$/;"	m	class:Search
+compare_equal_t	sort/common.h	/^typedef int (*compare_equal_t)(void*, void*);$/;"	t
+compare_equea	sort/main.cc	/^int compare_equea(void *d1, void* d2) {$/;"	f
+compare_t	sort/common.h	/^typedef bool (*compare_t)(void*, size_t i, size_t j);$/;"	t
+compare_t	tree/avltree/common.h	/^typedef int (*compare_t)(void *d1, void *d2);$/;"	t
+compare_t	tree/bsttree/common.h	/^typedef int (*compare_t)(void *d1, void *d2);$/;"	t
+compare_t	tree/tree/common.h	/^typedef int (*compare_t)(void *d1, void *d2);$/;"	t
+data	list/circular_list/circular_list.h	/^        T data;$/;"	m	class:Node
+data	list/double_list/double_list.h	/^        T data;$/;"	m	class:Node
+data	list/linked_list/list.h	/^        T data;$/;"	m	class:Node
+data	tree/avltree/avltree.h	/^        T data;$/;"	m	class:Node
+data	tree/bsttree/bsttree.h	/^        T data;$/;"	m	class:Node
+data	tree/tree/binary.h	/^        T data;$/;"	m	class:Node
+del	list/circular_list/circular_list.h	/^void CircularList<T>::del(T data) {$/;"	f	class:CircularList
+del	list/linked_list/list.h	/^void List<T>::del(T data) {$/;"	f	class:List
+del	tree/avltree/avltree.h	/^void AvlTree<T>::del(T data) {$/;"	f	class:AvlTree
+del	tree/bsttree/bsttree.h	/^void BstTree<T>::del(T data) {$/;"	f	class:BstTree
+del_pos	list/linked_list/list.h	/^void List<T>::del_pos(int pos) {$/;"	f	class:List
+depth	tree/tree/binary.h	/^size_t BinaryTree<T>::depth() {$/;"	f	class:BinaryTree
+empty	queue/queue.h	/^bool Queue<T, cap>::empty() const {$/;"	f	class:Queue
+front_	queue/queue.h	/^        size_t front_;$/;"	m	class:Queue
+full	queue/queue.h	/^bool Queue<T, cap>::full() const {$/;"	f	class:Queue
+generate_data	sort/main.cc	/^int* generate_data(int size) {$/;"	f
+get	queue/queue.h	/^T Queue<T, cap>::get() {$/;"	f	class:Queue
+head_	list/double_list/double_list.h	/^        Node<T>* head_;$/;"	m	class:DoubleList
+head_	list/linked_list/list.h	/^        Node<T>* head_;$/;"	m	class:List
+heap_sort	sort/main.cc	/^void heap_sort() {$/;"	f
+heap_sort	sort/sort.h	/^void Sort<T, size>::heap_sort(T *a) {$/;"	f	class:Sort
+height	tree/avltree/avltree.h	/^        int height;$/;"	m	class:Node
+hknodes	tree/tree/binary.h	/^void BinaryTree<T>::hknodes(int k) {$/;"	f	class:BinaryTree
+insert	list/double_list/double_list.h	/^void DoubleList<T>::insert(Node<T>* pre, T data) {$/;"	f	class:DoubleList
+insert	tree/avltree/avltree.h	/^void AvlTree<T>::insert(T data) {$/;"	f	class:AvlTree
+insert	tree/bsttree/bsttree.h	/^void BstTree<T>::insert(T data) {$/;"	f	class:BstTree
+insert	tree/btree/btree.h	/^BtNode<T>* BtNode<T>::insert(int k) {$/;"	f	class:BtNode
+insert_after	list/linked_list/list.h	/^void List<T>::insert_after(Node<T> *pre, T data) {$/;"	f	class:List
+insert_sort	sort/main.cc	/^void insert_sort() {$/;"	f
+insert_sort	sort/sort.h	/^void Sort<T, size>::insert_sort(T* data) {$/;"	f	class:Sort
+key_nums_	tree/btree/btree.h	/^        int key_nums_;$/;"	m	class:BtNode
+keys_	tree/btree/btree.h	/^        T* keys_;$/;"	m	class:BtNode
+l_child	tree/avltree/avltree.h	/^        Node* l_child;$/;"	m	class:Node
+l_child	tree/bsttree/bsttree.h	/^        Node<T>* l_child;$/;"	m	class:Node
+l_child	tree/tree/binary.h	/^        Node<T>* l_child;$/;"	m	class:Node
+leaf_	tree/btree/btree.h	/^        bool leaf_;$/;"	m	class:BtNode
+len_	queue/queue.h	/^        size_t len_;$/;"	m	class:Queue
+linear_search	search/search.h	/^int Search<T>::linear_search(T *data, int size, T d) {$/;"	f	class:Search
+main	list/circular_list/main.cc	/^int main(int argc, char **argv) {$/;"	f
+main	list/double_list/main.cc	/^int main(void) {$/;"	f
+main	list/linked_list/main.cc	/^int main(int argc, char **argv) {$/;"	f
+main	queue/main.cc	/^int main(int argc, char **argv) {$/;"	f
+main	sort/main.cc	/^int main() {$/;"	f
+main	tree/avltree/main.cc	/^int main(void) {$/;"	f
+main	tree/bsttree/main.cc	/^int main(void) {$/;"	f
+main	tree/tree/main.cc	/^int main(void) {$/;"	f
+merge_sort	sort/main.cc	/^void merge_sort() {$/;"	f
+merge_sort	sort/sort.h	/^void Sort<T, size>::merge_sort(T* data) {$/;"	f	class:Sort
+mid_traverse	tree/tree/binary.h	/^void BinaryTree<T>::mid_traverse() {$/;"	f	class:BinaryTree
+midorder	tree/avltree/avltree.h	/^void AvlTree<T>::midorder() {$/;"	f	class:AvlTree
+midorder	tree/bsttree/bsttree.h	/^void BstTree<T>::midorder() {$/;"	f	class:BstTree
+min_degree_	tree/btree/btree.h	/^        int min_degree_;$/;"	m	class:BtNode
+next	list/circular_list/circular_list.h	/^        Node* next;$/;"	m	class:Node
+next	list/double_list/double_list.h	/^        struct Node* next; $/;"	m	class:Node	typeref:struct:Node::Node
+next	list/linked_list/list.h	/^        Node* next;$/;"	m	class:Node
+node_del	tree/avltree/main.cc	/^void node_del() {$/;"	f
+operator +	list/linked_list/list.h	/^List<T> List<T>::operator+(const List<T>& t) const {$/;"	f	class:List
+operator +=	list/linked_list/list.h	/^void List<T>::operator+=(const List<T>& t) {$/;"	f	class:List
+operator []	list/circular_list/circular_list.h	/^Node<T> CircularList<T>::operator[](size_t idx) const {$/;"	f	class:CircularList
+operator []	list/double_list/double_list.h	/^Node<T>* DoubleList<T>::operator[](int idx) {$/;"	f	class:DoubleList
+operator []	list/linked_list/list.h	/^Node<T>* List<T>::operator[](size_t idx) {$/;"	f	class:List
+p_order	tree/tree/main.cc	/^void p_order(char *a, int size) {$/;"	f
+parents	tree/bsttree/bsttree.h	/^        Node<T>* parents;$/;"	m	class:Node
+parents	tree/tree/binary.h	/^        Node<T>* parents;$/;"	m	class:Node
+post_traverse	tree/tree/binary.h	/^void BinaryTree<T>::post_traverse() {$/;"	f	class:BinaryTree
+pre	list/double_list/double_list.h	/^        struct Node* pre; $/;"	m	class:Node	typeref:struct:Node::Node
+pre_traverse	tree/tree/binary.h	/^void BinaryTree<T>::pre_traverse() {$/;"	f	class:BinaryTree
+preorder	tree/avltree/avltree.h	/^void AvlTree<T>::preorder() {$/;"	f	class:AvlTree
+preorder	tree/bsttree/bsttree.h	/^void BstTree<T>::preorder() {$/;"	f	class:BstTree
+print	list/circular_list/circular_list.h	/^void CircularList<T>::print() const {$/;"	f	class:CircularList
+print	list/double_list/double_list.h	/^void DoubleList<T>::print() const {$/;"	f	class:DoubleList
+print	list/linked_list/list.h	/^void List<T>::print() const {$/;"	f	class:List
+print	sort/main.cc	/^void print(int *arr, int size) {$/;"	f
+print	tree/avltree/main.cc	/^void print(void* data) {$/;"	f
+print	tree/bsttree/main.cc	/^void print(void* data) {$/;"	f
+print	tree/tree/main.cc	/^void print(void* data) {$/;"	f
+print_	tree/avltree/avltree.h	/^        print_t print_;$/;"	m	class:AvlTree
+print_	tree/bsttree/bsttree.h	/^        print_t print_;$/;"	m	class:BstTree
+print_	tree/btree/btree.h	/^        print_t print_;$/;"	m	class:BtNode
+print_	tree/tree/binary.h	/^        print_t print_;$/;"	m	class:BinaryTree
+print_t	tree/avltree/common.h	/^typedef void (*print_t)(void *d1);$/;"	t
+print_t	tree/bsttree/common.h	/^typedef void (*print_t)(void *d1);$/;"	t
+print_t	tree/tree/common.h	/^typedef void (*print_t)(void *d1);$/;"	t
+pstorder	tree/bsttree/bsttree.h	/^void BstTree<T>::pstorder() {$/;"	f	class:BstTree
+push	list/linked_list/list.h	/^void List<T>::push(T data) {$/;"	f	class:List
+put	queue/queue.h	/^void Queue<T, cap>::put(T data) {$/;"	f	class:Queue
+queue_	queue/queue.h	/^        T queue_[cap];$/;"	m	class:Queue
+quick_sort	sort/main.cc	/^void quick_sort() {$/;"	f
+quick_sort	sort/sort.h	/^void Sort<T, size>::quick_sort(T *data) {$/;"	f	class:Sort
+r_child	tree/avltree/avltree.h	/^        Node* r_child;$/;"	m	class:Node
+r_child	tree/bsttree/bsttree.h	/^        Node<T>* r_child;$/;"	m	class:Node
+r_child	tree/tree/binary.h	/^        Node<T>* r_child;$/;"	m	class:Node
+rear_	queue/queue.h	/^        size_t rear_;$/;"	m	class:Queue
+reverse	list/linked_list/list.h	/^void List<T>::reverse() {$/;"	f	class:List
+root_	tree/avltree/avltree.h	/^        Node<T>* root_;$/;"	m	class:AvlTree
+root_	tree/bsttree/bsttree.h	/^        Node<T>* root_;$/;"	m	class:BstTree
+root_	tree/btree/btree.h	/^        BtNode *root_;$/;"	m	class:Btree
+root_	tree/tree/binary.h	/^        Node<T>* root_;$/;"	m	class:BinaryTree
+rotate_left	tree/avltree/main.cc	/^void rotate_left() {$/;"	f
+rotate_left_right	tree/avltree/main.cc	/^void rotate_left_right() {$/;"	f
+rotate_right	tree/avltree/main.cc	/^void rotate_right() {$/;"	f
+rotate_right_left	tree/avltree/main.cc	/^void rotate_right_left() {$/;"	f
+same_tree_order	tree/tree/binary.h	/^bool same_tree_order(T* pst, T* pre, T* mid, int size, compare_t cmp) {$/;"	f
+search	sort/main.cc	/^void search(int *data, int size, int i) {$/;"	f
+search	tree/btree/btree.h	/^BtNode<T>* BtNode<T>::search(int k) {$/;"	f	class:BtNode
+select_sort	list/linked_list/list.h	/^void List<T>::select_sort() {$/;"	f	class:List
+select_sort	sort/main.cc	/^void select_sort() {$/;"	f
+select_sort	sort/sort.h	/^void Sort<T, size>::select_sort(T* data) {$/;"	f	class:Sort
+size	list/circular_list/circular_list.h	/^size_t CircularList<T>::size() const {$/;"	f	class:CircularList
+size	list/linked_list/list.h	/^size_t List<T>::size() {$/;"	f	class:List
+size	queue/queue.h	/^size_t Queue<T, cap>::size() const {$/;"	f	class:Queue
+size	tree/tree/binary.h	/^        size_t size() {return this->size_;}$/;"	f	class:BinaryTree
+size_	list/circular_list/circular_list.h	/^        size_t size_;$/;"	m	class:CircularList
+size_	list/double_list/double_list.h	/^        size_t size_;$/;"	m	class:DoubleList
+size_	tree/tree/binary.h	/^        size_t size_;$/;"	m	class:BinaryTree
+swap	sort/main.cc	/^void swap(void *d, size_t i, size_t j) {$/;"	f
+swap_	sort/sort.h	/^        swap_t swap_;$/;"	m	class:Sort
+swap_t	sort/common.h	/^typedef void (*swap_t)(void*, size_t i, size_t j);$/;"	t
+t	tree/btree/btree.h	/^        int t;$/;"	m	class:Btree
+tail_	list/circular_list/circular_list.h	/^        Node<T>* tail_;$/;"	m	class:CircularList
+tail_	list/double_list/double_list.h	/^        Node<T>* tail_;$/;"	m	class:DoubleList
+traverse	tree/btree/btree.h	/^void BtNode<T>::traverse() {$/;"	f	class:BtNode
+what	list/circular_list/circular_list.h	/^        const char* what() {$/;"	f	class:IndexOutException
+what	list/circular_list/circular_list.h	/^        const char* what() {$/;"	f	class:MemoryException
+what	list/double_list/double_list.h	/^        const char* what() {$/;"	f	class:BlankListError
+what	list/double_list/double_list.h	/^        const char* what() {$/;"	f	class:NodeNotFoundError
+what	list/double_list/double_list.h	/^        const char* what() {$/;"	f	class:OutBoundaryError
+what	list/linked_list/list.h	/^        const char* what() {$/;"	f	class:IndexOutError
+what	list/linked_list/list.h	/^        const char* what() {$/;"	f	class:MemoryNodeError
+what	list/linked_list/list.h	/^        const char* what() {$/;"	f	class:NullNodeError
+what	queue/queue.h	/^        const char* what() {$/;"	f	class:EmptyException
+what	queue/queue.h	/^        const char* what() {$/;"	f	class:FullException
+~Queue	queue/queue.h	/^Queue<T, cap>::~Queue() {$/;"	f	class:Queue
