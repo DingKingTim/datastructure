@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	tags	/^FullException	queue.h	\/^class FullException : std::exception {$\/;"	c	inherits:std::exception$/;"	m	class:FullException	file:	access:private
+$	tags	/^FullException::what	queue.h	\/^        const char* what() {$\/;"	f	class:FullException	access:public	signature:()$/;"	m	class:FullException::__anon2	file:	access:private
+EmptyException	queue.h	/^class EmptyException : std::exception {$/;"	c	inherits:std::exception
+EmptyException::what	queue.h	/^        const char* what() {$/;"	f	class:EmptyException	access:public	signature:()
+FullException	queue.h	/^class FullException : std::exception {$/;"	c	inherits:std::exception
+FullException	tags	/^FullException	queue.h	\/^class FullException : std::exception {$\/;"	c	inherits:std::exception$/;"	c	file:	inherits:std::exception
+FullException::$	tags	/^FullException	queue.h	\/^class FullException : std::exception {$\/;"	c	inherits:std::exception$/;"	m	class:FullException	file:	access:private
+FullException::__anon2::$	tags	/^FullException::what	queue.h	\/^        const char* what() {$\/;"	f	class:FullException	access:public	signature:()$/;"	m	class:FullException::__anon2	file:	access:private
+FullException::__anon2::what	tags	/^what	queue.h	\/^        const char* what() {$\/;"	f	class:EmptyException	access:public	signature:()$/;"	f	class:FullException::__anon2	file:	access:private	signature:()
+FullException::what	queue.h	/^        const char* what() {$/;"	f	class:FullException	access:public	signature:()
+Queue	queue.h	/^        Queue();$/;"	p	class:Queue	access:public	signature:()
+Queue	queue.h	/^Queue<T, cap>::Queue() : len_(0), front_(0), rear_(cap-1) {$/;"	f	class:Queue	signature:()
+Queue	queue.h	/^class Queue {$/;"	c
+Queue::Queue	queue.h	/^        Queue();$/;"	p	class:Queue	access:public	signature:()
+Queue::Queue	queue.h	/^Queue<T, cap>::Queue() : len_(0), front_(0), rear_(cap-1) {$/;"	f	class:Queue	signature:()
+Queue::cap	queue.h	/^        size_t cap() const;$/;"	p	class:Queue	access:public	signature:() const
+Queue::empty	queue.h	/^        bool empty() const;$/;"	p	class:Queue	access:public	signature:() const
+Queue::empty	queue.h	/^bool Queue<T, cap>::empty() const {$/;"	f	class:Queue	signature:() const
+Queue::front_	queue.h	/^        size_t front_;$/;"	m	class:Queue	access:private
+Queue::full	queue.h	/^        bool full() const;$/;"	p	class:Queue	access:public	signature:() const
+Queue::full	queue.h	/^bool Queue<T, cap>::full() const {$/;"	f	class:Queue	signature:() const
+Queue::get	queue.h	/^        T get();$/;"	p	class:Queue	access:public	signature:()
+Queue::get	queue.h	/^T Queue<T, cap>::get() {$/;"	f	class:Queue	signature:()
+Queue::len_	queue.h	/^        size_t len_;$/;"	m	class:Queue	access:private
+Queue::put	queue.h	/^        void put(T data);$/;"	p	class:Queue	access:public	signature:(T data)
+Queue::put	queue.h	/^void Queue<T, cap>::put(T data) {$/;"	f	class:Queue	signature:(T data)
+Queue::queue_	queue.h	/^        T queue_[cap];$/;"	m	class:Queue	access:private
+Queue::rear_	queue.h	/^        size_t rear_;$/;"	m	class:Queue	access:private
+Queue::size	queue.h	/^        size_t size() const;$/;"	p	class:Queue	access:public	signature:() const
+Queue::~Queue	queue.h	/^        ~Queue();$/;"	p	class:Queue	access:public	signature:()
+Queue::~Queue	queue.h	/^Queue<T, cap>::~Queue() {$/;"	f	class:Queue	signature:()
+_QUEUE_H_	queue.h	2;"	d
+cap	queue.h	/^        size_t cap() const;$/;"	p	class:Queue	access:public	signature:() const
+cap	queue.h	/^size_t Queue<T, cap>cap() const {$/;"	f	signature:() const
+empty	queue.h	/^        bool empty() const;$/;"	p	class:Queue	access:public	signature:() const
+empty	queue.h	/^bool Queue<T, cap>::empty() const {$/;"	f	class:Queue	signature:() const
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+front_	queue.h	/^        size_t front_;$/;"	m	class:Queue	access:private
+full	queue.h	/^        bool full() const;$/;"	p	class:Queue	access:public	signature:() const
+full	queue.h	/^bool Queue<T, cap>::full() const {$/;"	f	class:Queue	signature:() const
+gQueue::~$Queue	cscope.out	/^>::~$/;"	f	class:gQueue	signature:()
+get	queue.h	/^        T get();$/;"	p	class:Queue	access:public	signature:()
+get	queue.h	/^T Queue<T, cap>::get() {$/;"	f	class:Queue	signature:()
+len_	queue.h	/^        size_t len_;$/;"	m	class:Queue	access:private
+put	queue.h	/^        void put(T data);$/;"	p	class:Queue	access:public	signature:(T data)
+put	queue.h	/^void Queue<T, cap>::put(T data) {$/;"	f	class:Queue	signature:(T data)
+queue_	queue.h	/^        T queue_[cap];$/;"	m	class:Queue	access:private
+rear_	queue.h	/^        size_t rear_;$/;"	m	class:Queue	access:private
+size	queue.h	/^        size_t size() const;$/;"	p	class:Queue	access:public	signature:() const
+size	queue.h	/^size_t Queue<T, cap>size() const {$/;"	f	signature:() const
+what	queue.h	/^        const char* what() {$/;"	f	class:EmptyException	access:public	signature:()
+what	queue.h	/^        const char* what() {$/;"	f	class:FullException	access:public	signature:()
+what	tags	/^what	queue.h	\/^        const char* what() {$\/;"	f	class:EmptyException	access:public	signature:()$/;"	f	class:FullException::__anon2	file:	access:private	signature:()
+~$Queue	cscope.out	/^>::~$/;"	f	class:gQueue	signature:()
+~Queue	queue.h	/^        ~Queue();$/;"	p	class:Queue	access:public	signature:()
+~Queue	queue.h	/^Queue<T, cap>::~Queue() {$/;"	f	class:Queue	signature:()

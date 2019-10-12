@@ -1,0 +1,870 @@
+cscope 15 /Volumes/Samsung_T5/turior/datastructure/list/circular_list               0000003798
+	@circular_list.h
+
+1 #i‚de‡
+_CIRCULAR_LIST_H_
+
+
+2 
+	#_CIRCULAR_LIST_H_
+
+
+	)
+
+3 
+	~<ex˚±i⁄
+>
+
+4 
+	~<io°ªam
+>
+
+6 ˛as†
+	cMem‹yEx˚±i⁄
+ : 
+public
+ 
+°d
+::
+ex˚±i⁄
+ {
+
+7 
+public
+:
+
+8 c⁄° * 
+	$wh©
+() {
+
+11 
+	}
+};
+
+13 ˛as†
+	cIndexOutEx˚±i⁄
+ : 
+public
+ 
+°d
+::
+ex˚±i⁄
+ {
+
+14 
+public
+:
+
+15 c⁄° * 
+	$wh©
+() {
+
+18 
+	}
+};
+
+20 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+21 ˛as†
+	cNode
+ {
+
+22 
+	mpublic
+:
+
+23 
+T
+ 
+d©a
+;
+
+24 
+Node
+* 
+	m√xt
+;
+
+27 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+28 ˛as†
+	cCúcuœrLi°
+ {
+
+29 
+	m¥iv©e
+:
+
+30 
+size_t
+ 
+size_
+;
+
+31 
+	mNode
+<
+	mT
+>* 
+	mèû_
+;
+
+33 
+	mpublic
+:
+
+34 
+CúcuœrLi°
+();
+
+35 
+≠≥nd
+(
+T
+ 
+d©a
+);
+
+36 
+dñ
+(
+T
+ 
+d©a
+);
+
+37 
+	$¥öt
+() const;
+
+38 
+size_t
+ 
+	$size
+() const;
+
+39 
+Node
+<
+T
+> 
+›î©‹
+[](
+size_t
+ 
+idx
+) const;
+
+43 
+ãm∂©e
+ <
+˛ass
+ 
+T
+>
+
+44 
+CúcuœrLi°
+<
+T
+>::
+	$CúcuœrLi°
+(Ë: 
+	`èû_
+(
+nuŒ±r
+), 
+	$size_
+(0) {
+
+45 
+	}
+}
+
+47 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+48 
+	gCúcuœrLi°
+<
+	gT
+>::
+	$≠≥nd
+(
+T
+ 
+d©a
+) {
+
+49 
+Node
+<
+T
+>* 
+node
+ = 
+√w
+ Node<T>;
+
+50 
+node
+->
+d©a
+ = data;
+
+51 
+node
+->
+√xt
+ = 
+nuŒ±r
+;
+
+53 
+this
+->
+size_
+ ++;
+
+55 i‡(
+this
+->
+èû_
+ =
+nuŒ±r
+) {
+
+56 
+this
+->
+èû_
+ = 
+node
+;
+
+57 
+this
+->
+èû_
+->
+√xt
+ =Åhis->tail_;
+
+61 
+Node
+<
+T
+>* 
+hód
+ = 
+this
+->
+èû_
+->
+√xt
+;
+
+62 
+this
+->
+èû_
+->
+√xt
+ = 
+node
+;
+
+63 
+node
+->
+√xt
+ = 
+hód
+;
+
+64 
+this
+->
+èû_
+ = 
+node
+;
+
+65 
+	}
+}
+
+67 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+68 
+	gCúcuœrLi°
+<
+	gT
+>::
+	$dñ
+(
+T
+ 
+d©a
+) {
+
+70 i‡(
+nuŒ±r
+ =
+this
+->
+èû_
+) {
+
+74 
+Node
+<
+T
+>* 
+¥e
+ = 
+nuŒ±r
+;
+
+75 
+Node
+<
+T
+>* 
+tmp
+ = 
+this
+->
+èû_
+->
+√xt
+;
+
+77 
+tmp
+ !
+this
+->
+èû_
+) {
+
+78 i‡(
+tmp
+->
+d©a
+ == data) {
+
+79 i‡(
+nuŒ±r
+ =
+¥e
+) {
+
+80 
+this
+->
+èû_
+->
+√xt
+ =Åhis->tail_;
+
+81 
+dñëe
+ 
+tmp
+;
+
+82 
+tmp
+ = 
+nuŒ±r
+;
+
+83 
+this
+->
+size_
+--;
+
+86 
+¥e
+->
+√xt
+ = 
+tmp
+->next;
+
+87 
+dñëe
+ 
+tmp
+;
+
+88 
+tmp
+ = 
+nuŒ±r
+;
+
+89 
+this
+->
+size_
+--;
+
+94 
+¥e
+ = 
+tmp
+;
+
+95 
+tmp
+ =Åmp->
+√xt
+;
+
+98 i‡(
+this
+->
+èû_
+->
+d©a
+ == data) {
+
+99 
+¥e
+->
+√xt
+ = 
+this
+->
+èû_
+->next;
+
+100 
+dñëe
+ 
+this
+->
+èû_
+;
+
+101 
+this
+->
+èû_
+ = 
+¥e
+;
+
+102 
+this
+->
+size_
+--;
+
+104 
+	}
+}
+
+109 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+110 
+	gCúcuœrLi°
+<
+	gT
+>::
+	$¥öt
+() const {
+
+111 i‡(
+nuŒ±r
+ =
+this
+->
+èû_
+) {
+
+115 
+Node
+<
+T
+>* 
+tmp
+ = 
+this
+->
+èû_
+->
+√xt
+;
+
+116 
+tmp
+ !
+this
+->
+èû_
+) {
+
+117 
+°d
+::
+cout
+ << 
+tmp
+->
+d©a
+ << " ";
+
+118 
+tmp
+ =Åmp->
+√xt
+;
+
+120 
+°d
+::
+cout
+ << 
+tmp
+->
+d©a
+ << " " << std::
+ídl
+;
+
+121 
+	}
+}
+
+123 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+124 
+	gNode
+<
+	gT
+> 
+	gCúcuœrLi°
+<T>::
+›î©‹
+[](
+size_t
+ 
+idx
+) const {
+
+125 i‡(
+nuŒ±r
+ =
+this
+->
+èû_
+) {
+
+126 
+throw
+ 
+IndexOutEx˚±i⁄
+();
+
+129 
+size_t
+ 
+	gi
+ = 0;
+
+130 
+	gNode
+<
+	gT
+>* 
+	gtmp
+ = 
+this
+->
+èû_
+->
+√xt
+;
+
+131 
+	gtmp
+ !
+this
+->
+èû_
+) {
+
+132 i‡(
+i
+ =
+idx
+) {
+
+133  *
+tmp
+;
+
+135 
+	gi
+++;
+
+136 
+	gtmp
+ = 
+tmp
+->
+√xt
+;
+
+139 i‡(
+	gi
+ =
+idx
+) {
+
+140  *
+tmp
+;
+
+143 
+throw
+ 
+IndexOutEx˚±i⁄
+();
+
+146 
+	gãm∂©e
+ <
+˛ass
+ 
+	gT
+>
+
+147 
+size_t
+ 
+	gCúcuœrLi°
+<
+	gT
+>::
+	$size
+() const {
+
+148  
+this
+->
+size_
+;
+
+149 
+	}
+}
+
+	@main.cc
+
+1 
+	~"cúcuœr_li°.h
+"
+
+4 
+	$maö
+(
+¨gc
+, **
+¨gv
+) {
+
+5 
+CúcuœrLi°
+<> 
+cúcuœrLi°
+;
+
+7 
+°d
+::
+cout
+ << "CúcuœrLi°áµíd: " << std::
+ídl
+;
+
+8 
+cúcuœrLi°
+.
+	`≠≥nd
+(1);
+
+9 
+cúcuœrLi°
+.
+	`≠≥nd
+(2);
+
+10 
+cúcuœrLi°
+.
+	`≠≥nd
+(3);
+
+11 
+cúcuœrLi°
+.
+	`¥öt
+();
+
+13 
+°d
+::
+cout
+ << std::
+ídl
+ << "CircularList operator []: " << std::endl;
+
+14 
+Node
+<> 
+node
+ = 
+cúcuœrLi°
+[2];
+
+15 
+°d
+::
+cout
+ << "node-2: " << 
+node
+.
+d©a
+ << std::
+ídl
+;
+
+17 
+°d
+::
+cout
+ << std::
+ídl
+ << "CircularList size(): " << std::endl;
+
+18 
+°d
+::
+cout
+ << "size: " << 
+cúcuœrLi°
+.
+	`size
+(Ë<< std::
+ídl
+;
+
+20 
+°d
+::
+cout
+ << std::
+ídl
+ << "CircularList del(): " << std::endl;
+
+21 
+cúcuœrLi°
+.
+	`dñ
+(2);
+
+22 
+cúcuœrLi°
+.
+	`¥öt
+();
+
+24 
+cúcuœrLi°
+.
+	`dñ
+(1);
+
+25 
+cúcuœrLi°
+.
+	`¥öt
+();
+
+27 
+cúcuœrLi°
+.
+	`dñ
+(4);
+
+28 
+cúcuœrLi°
+.
+	`¥öt
+();
+
+30 
+cúcuœrLi°
+.
+	`dñ
+(3);
+
+31 
+cúcuœrLi°
+.
+	`¥öt
+();
+
+33 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+2
+24
+circular_list.h
+main.cc

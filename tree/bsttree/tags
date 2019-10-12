@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BstTree	bsttree.h	/^        BstTree(print_t p=nullptr, compare_t c=nullptr);$/;"	p	class:BstTree	access:public	signature:(print_t p=nullptr, compare_t c=nullptr)
+BstTree	bsttree.h	/^BstTree<T>::BstTree(print_t p, compare_t cmp) : $/;"	f	class:BstTree	signature:(print_t p, compare_t cmp)
+BstTree	bsttree.h	/^class BstTree {$/;"	c
+BstTree::BstTree	bsttree.h	/^        BstTree(print_t p=nullptr, compare_t c=nullptr);$/;"	p	class:BstTree	access:public	signature:(print_t p=nullptr, compare_t c=nullptr)
+BstTree::BstTree	bsttree.h	/^BstTree<T>::BstTree(print_t p, compare_t cmp) : $/;"	f	class:BstTree	signature:(print_t p, compare_t cmp)
+BstTree::_delete	bsttree.h	/^        Node<T>* _delete(Node<T>* node, T data);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node, T data)
+BstTree::_delete	bsttree.h	/^Node<T>* BstTree<T>::_delete(Node<T>* node, T data) {$/;"	f	class:BstTree	signature:(Node<T>* node, T data)
+BstTree::_insert	bsttree.h	/^        Node<T>* _insert(Node<T>* node, T data);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node, T data)
+BstTree::_insert	bsttree.h	/^Node<T>* BstTree<T>::_insert(Node<T>* node, T data) {$/;"	f	class:BstTree	signature:(Node<T>* node, T data)
+BstTree::_midorder	bsttree.h	/^        void _midorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+BstTree::_midorder	bsttree.h	/^void BstTree<T>::_midorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+BstTree::_min_node	bsttree.h	/^        Node<T>* _min_node(Node<T>* node);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node)
+BstTree::_min_node	bsttree.h	/^Node<T>* BstTree<T>::_min_node(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+BstTree::_preorder	bsttree.h	/^        void _preorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+BstTree::_preorder	bsttree.h	/^void BstTree<T>::_preorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+BstTree::_pstorder	bsttree.h	/^        void _pstorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+BstTree::_pstorder	bsttree.h	/^void BstTree<T>::_pstorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+BstTree::compare_	bsttree.h	/^        compare_t compare_;$/;"	m	class:BstTree	access:private
+BstTree::del	bsttree.h	/^        void del(T data);$/;"	p	class:BstTree	access:public	signature:(T data)
+BstTree::del	bsttree.h	/^void BstTree<T>::del(T data) {$/;"	f	class:BstTree	signature:(T data)
+BstTree::insert	bsttree.h	/^        void insert(T data);$/;"	p	class:BstTree	access:public	signature:(T data)
+BstTree::insert	bsttree.h	/^void BstTree<T>::insert(T data) {$/;"	f	class:BstTree	signature:(T data)
+BstTree::midorder	bsttree.h	/^        void midorder();$/;"	p	class:BstTree	access:public	signature:()
+BstTree::midorder	bsttree.h	/^void BstTree<T>::midorder() {$/;"	f	class:BstTree	signature:()
+BstTree::preorder	bsttree.h	/^        void preorder();$/;"	p	class:BstTree	access:public	signature:()
+BstTree::preorder	bsttree.h	/^void BstTree<T>::preorder() {$/;"	f	class:BstTree	signature:()
+BstTree::print_	bsttree.h	/^        print_t print_;$/;"	m	class:BstTree	access:private
+BstTree::pstorder	bsttree.h	/^        void pstorder();$/;"	p	class:BstTree	access:public	signature:()
+BstTree::pstorder	bsttree.h	/^void BstTree<T>::pstorder() {$/;"	f	class:BstTree	signature:()
+BstTree::root_	bsttree.h	/^        Node<T>* root_;$/;"	m	class:BstTree	access:private
+MAX_NODE_OF_HIGH	common.h	9;"	d
+MAX_NODE_OF_LEVEL	common.h	6;"	d
+Node	bsttree.h	/^        Node(T d) : data(d), l_child(nullptr), r_child(nullptr) {}$/;"	f	class:Node	access:public	signature:(T d)
+Node	bsttree.h	/^class Node {$/;"	c
+Node::Node	bsttree.h	/^        Node(T d) : data(d), l_child(nullptr), r_child(nullptr) {}$/;"	f	class:Node	access:public	signature:(T d)
+Node::data	bsttree.h	/^        T data;$/;"	m	class:Node	access:public
+Node::l_child	bsttree.h	/^        Node<T>* l_child;$/;"	m	class:Node	access:public
+Node::parents	bsttree.h	/^        Node<T>* parents;$/;"	m	class:Node	access:public
+Node::r_child	bsttree.h	/^        Node<T>* r_child;$/;"	m	class:Node	access:public
+TREE_DEBUG	bsttree.h	6;"	d
+_BST_TREE_H_	bsttree.h	2;"	d
+_COMMON_H_	common.h	2;"	d
+_delete	bsttree.h	/^        Node<T>* _delete(Node<T>* node, T data);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node, T data)
+_delete	bsttree.h	/^Node<T>* BstTree<T>::_delete(Node<T>* node, T data) {$/;"	f	class:BstTree	signature:(Node<T>* node, T data)
+_insert	bsttree.h	/^        Node<T>* _insert(Node<T>* node, T data);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node, T data)
+_insert	bsttree.h	/^Node<T>* BstTree<T>::_insert(Node<T>* node, T data) {$/;"	f	class:BstTree	signature:(Node<T>* node, T data)
+_midorder	bsttree.h	/^        void _midorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+_midorder	bsttree.h	/^void BstTree<T>::_midorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+_min_node	bsttree.h	/^        Node<T>* _min_node(Node<T>* node);$/;"	p	class:BstTree	access:private	signature:(Node<T>* node)
+_min_node	bsttree.h	/^Node<T>* BstTree<T>::_min_node(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+_preorder	bsttree.h	/^        void _preorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+_preorder	bsttree.h	/^void BstTree<T>::_preorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+_pstorder	bsttree.h	/^        void _pstorder(Node<T>* n);$/;"	p	class:BstTree	access:private	signature:(Node<T>* n)
+_pstorder	bsttree.h	/^void BstTree<T>::_pstorder(Node<T>* node) {$/;"	f	class:BstTree	signature:(Node<T>* node)
+compare	main.cc	/^int compare(void* d1, void* d2) {$/;"	f	signature:(void* d1, void* d2)
+compare	tags	/^compare	main.cc	\/^int compare(void* d1, void* d2) {$\/;"	f	signature:(void* d1, void* d2)$/;"	f	signature:(void* d1, void* d2)
+compare_	bsttree.h	/^        compare_t compare_;$/;"	m	class:BstTree	access:private
+compare_t	common.h	/^typedef int (*compare_t)(void *d1, void *d2);$/;"	t
+compare_t	tags	/^compare_t	common.h	\/^typedef int (*compare_t)(void *d1, void *d2);$\/;"	t$/;"	t	file:
+data	bsttree.h	/^        T data;$/;"	m	class:Node	access:public
+del	bsttree.h	/^        void del(T data);$/;"	p	class:BstTree	access:public	signature:(T data)
+del	bsttree.h	/^void BstTree<T>::del(T data) {$/;"	f	class:BstTree	signature:(T data)
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+insert	bsttree.h	/^        void insert(T data);$/;"	p	class:BstTree	access:public	signature:(T data)
+insert	bsttree.h	/^void BstTree<T>::insert(T data) {$/;"	f	class:BstTree	signature:(T data)
+l_child	bsttree.h	/^        Node<T>* l_child;$/;"	m	class:Node	access:public
+main	main.cc	/^int main(void) {$/;"	f	signature:(void)
+midorder	bsttree.h	/^        void midorder();$/;"	p	class:BstTree	access:public	signature:()
+midorder	bsttree.h	/^void BstTree<T>::midorder() {$/;"	f	class:BstTree	signature:()
+p_order	main.cc	/^void p_order(char *a, int size) {$/;"	f	signature:(char *a, int size)
+parents	bsttree.h	/^        Node<T>* parents;$/;"	m	class:Node	access:public
+preorder	bsttree.h	/^        void preorder();$/;"	p	class:BstTree	access:public	signature:()
+preorder	bsttree.h	/^void BstTree<T>::preorder() {$/;"	f	class:BstTree	signature:()
+print	main.cc	/^void print(void* data) {$/;"	f	signature:(void* data)
+print_	bsttree.h	/^        print_t print_;$/;"	m	class:BstTree	access:private
+print_t	common.h	/^typedef void (*print_t)(void *d1);$/;"	t
+pstorder	bsttree.h	/^        void pstorder();$/;"	p	class:BstTree	access:public	signature:()
+pstorder	bsttree.h	/^void BstTree<T>::pstorder() {$/;"	f	class:BstTree	signature:()
+r_child	bsttree.h	/^        Node<T>* r_child;$/;"	m	class:Node	access:public
+root_	bsttree.h	/^        Node<T>* root_;$/;"	m	class:BstTree	access:private

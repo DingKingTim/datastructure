@@ -1,0 +1,496 @@
+cscope 15 /Volumes/Samsung_T5/turior/datastructure/list/queue               0000002030
+	@main.cc
+
+	@queue.h
+
+1 #iâdeà
+_QUEUE_H_
+
+
+2 
+	#_QUEUE_H_
+
+
+	)
+
+3 
+	~<exû±iÚ
+>
+
+5 þas 
+	cFuÎExû±iÚ
+ : 
+¡d
+::
+exû±iÚ
+ {
+
+6 
+public
+:
+
+7 cÚ¡ * 
+	$wh©
+() {
+
+10 
+	}
+};
+
+12 þas 
+	cEm±yExû±iÚ
+ : 
+¡d
+::
+exû±iÚ
+ {
+
+13 
+public
+:
+
+14 cÚ¡ * 
+	$wh©
+() {
+
+17 
+	}
+};
+
+19 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+20 þas 
+	cQueue
+ {
+
+21 
+	m´iv©e
+:
+
+22 
+size_t
+ 
+Ën_
+;
+
+23 
+size_t
+ 
+	mäÚt_
+;
+
+24 
+size_t
+ 
+	m»¬_
+;
+
+25 
+T
+ 
+	mqueue_
+[
+ÿp
+];
+
+27 
+	mpublic
+:
+
+28 
+Queue
+();
+
+29 ~
+Queue
+();
+
+30 
+T
+ 
+g‘
+();
+
+31 
+put
+(
+T
+ 
+d©a
+);
+
+32 
+size_t
+ 
+	$ÿp
+() const;
+
+33 
+boÞ
+ 
+	$em±y
+() const;
+
+34 
+boÞ
+ 
+	$fuÎ
+() const;
+
+35 
+size_t
+ 
+	$size
+() const;
+
+38 
+‹m¶©e
+<
+þass
+ 
+T
+, 
+size_t
+ 
+ÿp
+>
+
+39 
+Queue
+<
+T
+, 
+ÿp
+>::
+	$Queue
+(è: 
+	`Ën_
+(0), 
+	`äÚt_
+(0), 
+	`»¬_
+(
+ÿp
+-1) {
+
+40 
+	}
+}
+
+42 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+43 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>::~
+	$Queue
+() {
+
+44 
+	}
+}
+
+46 
+‹m¶©e
+<
+þass
+ 
+T
+, 
+size_t
+ 
+	gÿp
+>
+
+47 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>::
+	$put
+(
+T
+ 
+d©a
+) {
+
+48 ià(!
+this
+->
+	`em±y
+()) {
+
+49 
+throw
+ 
+	`FuÎExû±iÚ
+();
+
+52 
+this
+->
+»¬_
+ = (this->»¬_ + 1è% 
+ÿp
+;
+
+53 
+this
+->
+queue_
+[this->
+»¬_
+] = 
+d©a
+;
+
+54 
+this
+->
+Ën_
+++;
+
+55 
+	}
+}
+
+57 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+58 
+T
+ 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>::
+	$g‘
+() {
+
+59 ià(
+this
+->
+	`em±y
+()) {
+
+60 
+throw
+ 
+	`Em±yExû±iÚ
+();
+
+63 
+T
+ 
+™em
+ = 
+this
+->
+queue_
+[this->
+äÚt_
+];
+
+64 
+this
+->
+äÚt_
+ = (this->äÚt_ + 1è% 
+ÿp
+;
+
+65 
+this
+->
+Ën_
+--;
+
+66  
+™em
+;
+
+67 
+	}
+}
+
+69 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+70 
+size_t
+ 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>
+	$size
+() const {
+
+71  
+this
+->
+Ën_
+;
+
+72 
+	}
+}
+
+74 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+75 
+size_t
+ 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>
+	$ÿp
+() const {
+
+76  
+ÿp
+;
+
+77 
+	}
+}
+
+79 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+80 
+boÞ
+ 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>::
+	$em±y
+() const {
+
+81  
+this
+->
+Ën_
+ == 0;
+
+82 
+	}
+}
+
+84 
+	g‹m¶©e
+<
+þass
+ 
+	gT
+, 
+size_t
+ 
+	gÿp
+>
+
+85 
+boÞ
+ 
+	gQueue
+<
+	gT
+, 
+	gÿp
+>::
+	$fuÎ
+() const {
+
+86  
+this
+->
+Ën_
+ =ð
+ÿp
+;
+
+87 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+2
+16
+main.cc
+queue.h
