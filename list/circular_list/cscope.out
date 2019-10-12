@@ -1,4 +1,4 @@
-cscope 15 /Volumes/Samsung_T5/turior/datastructure/list/circular_list               0000003798
+cscope 15 /Volumes/Samsung_T5/github/datastructure/list/circular_list               0000003824
 	@circular_list.h
 
 1 #i‚de‡
@@ -455,7 +455,13 @@ this
 d©a
  == data) {
 
-99 
+99 i‡(
+nuŒ±r
+ !
+¥e
+) {
+
+100 
 ¥e
 ->
 √xt
@@ -465,7 +471,7 @@ this
 èû_
 ->next;
 
-100 
+102 
 dñëe
  
 this
@@ -473,7 +479,7 @@ this
 èû_
 ;
 
-101 
+103 
 this
 ->
 èû_
@@ -481,17 +487,17 @@ this
 ¥e
 ;
 
-102 
+104 
 this
 ->
 size_
 --;
 
-104 
+106 
 	}
 }
 
-109 
+111 
 	gãm∂©e
  <
 ˛ass
@@ -499,7 +505,7 @@ size_
 	gT
 >
 
-110 
+112 
 	gCúcuœrLi°
 <
 	gT
@@ -507,7 +513,7 @@ size_
 	$¥öt
 () const {
 
-111 i‡(
+113 i‡(
 nuŒ±r
  =
 this
@@ -515,7 +521,7 @@ this
 èû_
 ) {
 
-115 
+117 
 Node
 <
 T
@@ -529,7 +535,7 @@ this
 √xt
 ;
 
-116 
+118 
 tmp
  !
 this
@@ -537,7 +543,7 @@ this
 èû_
 ) {
 
-117 
+119 
 °d
 ::
 cout
@@ -547,13 +553,13 @@ tmp
 d©a
  << " ";
 
-118 
+120 
 tmp
  =Åmp->
 √xt
 ;
 
-120 
+122 
 °d
 ::
 cout
@@ -565,11 +571,11 @@ d©a
 ídl
 ;
 
-121 
+123 
 	}
 }
 
-123 
+125 
 	gãm∂©e
  <
 ˛ass
@@ -577,7 +583,7 @@ d©a
 	gT
 >
 
-124 
+126 
 	gNode
 <
 	gT
@@ -591,7 +597,7 @@ size_t
 idx
 ) const {
 
-125 i‡(
+127 i‡(
 nuŒ±r
  =
 this
@@ -599,19 +605,19 @@ this
 èû_
 ) {
 
-126 
+128 
 throw
  
 IndexOutEx˚±i⁄
 ();
 
-129 
+131 
 size_t
  
 	gi
  = 0;
 
-130 
+132 
 	gNode
 <
 	gT
@@ -625,7 +631,7 @@ this
 √xt
 ;
 
-131 
+133 
 	gtmp
  !
 this
@@ -633,21 +639,21 @@ this
 èû_
 ) {
 
-132 i‡(
+134 i‡(
 i
  =
 idx
 ) {
 
-133  *
+135  *
 tmp
 ;
 
-135 
+137 
 	gi
 ++;
 
-136 
+138 
 	gtmp
  = 
 tmp
@@ -655,23 +661,23 @@ tmp
 √xt
 ;
 
-139 i‡(
+141 i‡(
 	gi
  =
 idx
 ) {
 
-140  *
+142  *
 tmp
 ;
 
-143 
+145 
 throw
  
 IndexOutEx˚±i⁄
 ();
 
-146 
+148 
 	gãm∂©e
  <
 ˛ass
@@ -679,7 +685,7 @@ IndexOutEx˚±i⁄
 	gT
 >
 
-147 
+149 
 size_t
  
 	gCúcuœrLi°
@@ -689,13 +695,13 @@ size_t
 	$size
 () const {
 
-148  
+150  
 this
 ->
 size_
 ;
 
-149 
+151 
 	}
 }
 
@@ -751,7 +757,7 @@ cúcuœrLi°
 	`¥öt
 ();
 
-13 
+12 
 °d
 ::
 cout
@@ -759,7 +765,7 @@ cout
 ídl
  << "CircularList operator []: " << std::endl;
 
-14 
+13 
 Node
 <> 
 node
@@ -767,7 +773,7 @@ node
 cúcuœrLi°
 [2];
 
-15 
+14 
 °d
 ::
 cout
@@ -779,7 +785,7 @@ d©a
 ídl
 ;
 
-17 
+16 
 °d
 ::
 cout
@@ -787,7 +793,7 @@ cout
 ídl
  << "CircularList size(): " << std::endl;
 
-18 
+17 
 °d
 ::
 cout
@@ -799,7 +805,7 @@ cúcuœrLi°
 ídl
 ;
 
-20 
+19 
 °d
 ::
 cout
@@ -807,63 +813,62 @@ cout
 ídl
  << "CircularList del(): " << std::endl;
 
-21 
+20 
 cúcuœrLi°
 .
 	`dñ
 (2);
 
-22 
+21 
 cúcuœrLi°
 .
 	`¥öt
 ();
 
-24 
+23 
 cúcuœrLi°
 .
 	`dñ
 (1);
 
-25 
+24 
 cúcuœrLi°
 .
 	`¥öt
 ();
 
-27 
+26 
 cúcuœrLi°
 .
 	`dñ
 (4);
 
-28 
+27 
 cúcuœrLi°
 .
 	`¥öt
 ();
 
-30 
+29 
 cúcuœrLi°
 .
 	`dñ
 (3);
 
-31 
+30 
 cúcuœrLi°
 .
 	`¥öt
 ();
 
-33 
+32 
 	}
 }
 
 	@
 1
 .
-1
-/usr/include
+0
 2
 24
 circular_list.h
