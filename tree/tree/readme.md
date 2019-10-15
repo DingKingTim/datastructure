@@ -1,6 +1,6 @@
 ## 1、基本的一个二叉树
 
-![binary tree](#https://github.com/DingKingTim/datastructure/blob/master/tree/media/base_binarytree.jpeg)
+![binary tree](https://github.com/DingKingTim/datastructure/blob/master/tree/media/base_binarytree.jpeg)
 
 ## 1、二叉树的基本性质
 
