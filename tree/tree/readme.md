@@ -19,8 +19,8 @@
 
 <h4 id='1'> 1、基本的一个二叉树 </h4>
 
-![binary tree](https://github.com/DingKingTim/datastructure/blob/master/tree/media/base_binarytree.jpeg)
 
+![binary tree](https://github.com/DingKingTim/datastructure/blob/master/tree/media/base_binarytree.jpeg)
 
 
 <h4 id='2'> 2、二叉树的基本性质 </h4>
@@ -211,6 +211,9 @@ while (! q.empty()) {
    ```
    
 <h5 id='4.4'> 4.4、构建堆 </h5>
+
+![heaptree](https://github.com/DingKingTim/datastructure/blob/master/tree/media/heaptree.png)
+
 
 - 性质
 
