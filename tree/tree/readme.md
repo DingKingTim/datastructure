@@ -35,19 +35,28 @@
    - 前序遍历: 根 --> 左 --> 右
    
    ```c
-   A  B  D  E  C  F
+   // A  B  D  E  C  F
+   this->print_(node);
+   this->_pre_traverse(node->l_child);
+   this->_pre_traverse(node->r_child);
    ```
    
    - 中序遍历: 左 --> 根 --> 右
    
    ```c
-   D  B  E  A  F  C
+   // D  B  E  A  F  C
+   this->_mid_traverse(node->l_child);
+   this->print_(node);
+   this->_mid_traverse(node->r_child);
    ```
    
    - 后序遍历: 左 --> 右 --> 根
    
    ```c
-   D  E  B  F  C  A
+   // D  E  B  F  C  A
+   this->_post_traverse(node->l_child);
+   this->_post_traverse(node->r_child);
+   this->print_(node);
    ```
    
 - 宽度优先遍历: 
@@ -70,6 +79,7 @@
       // 先后亚茹左和右节点
       q.put(n->l)
       q.put(n->r)
+    }
     ```
     
 <h4 id='4'> 4、给定序列创建树 </h4>
