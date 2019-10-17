@@ -40,27 +40,27 @@ class Node {
 
 ![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/left-rotate.png)
 		
-		
-	```c
-	// 1. 暂存不平衡节点的左子树
-	Node<T>* nl = node->l_child;
-	
-	// 2. 暂存不平衡节点的左子树根节点的右子树
-	Node<T>* nlr = nl->r_child;
-	
-	// 3. 旋转第一步
-	nl->r_child = node;
-	
-	// 4. 旋转第二步
-	node->l_child = nlr;
-	
-	// 5. 旋转后不平衡节点的高度发生了变化，重新计算
-	node->height = this->_max(this->_height(node->l_child), 
-	                      this->_height(node->r_child)) + 1;
-	
-	// 6. 右子树的高度发生变化，新根节点的高度调节
-	nl->height = this->_max(this->_height(nl->l_child),
-	                    this->_height(nl->r_child)) + 1;
-	
-	return nl;
-	```
+
+```c
+// 1. 暂存不平衡节点的左子树
+Node<T>* nl = node->l_child;
+
+// 2. 暂存不平衡节点的左子树根节点的右子树
+Node<T>* nlr = nl->r_child;
+
+// 3. 旋转第一步
+nl->r_child = node;
+
+// 4. 旋转第二步
+node->l_child = nlr;
+
+// 5. 旋转后不平衡节点的高度发生了变化，重新计算
+node->height = this->_max(this->_height(node->l_child), 
+		      this->_height(node->r_child)) + 1;
+
+// 6. 右子树的高度发生变化，新根节点的高度调节
+nl->height = this->_max(this->_height(nl->l_child),
+		    this->_height(nl->r_child)) + 1;
+
+return nl;
+```
