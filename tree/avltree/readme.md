@@ -7,6 +7,10 @@
 >> [2.1、右旋转](#2.1)
 >> 
 >> [2.2、左旋转](#2.2)
+>> 
+>> [2.3、先左后右旋转](#2.3)
+>> 
+>> [2.4、先右后左旋转](#2.4)
 >
 
 ---
@@ -123,3 +127,42 @@ nr->height = this->_max(this->_height(nr->l_child),
 
 return nr;
 ```
+
+
+<h5 id='2.3'> 2.3、先左后右旋转 </h5>
+
+节点本来平衡，由于左边插入了一个元素，而且插入到了该节点左子树的右边，导致左子树右高，左底的同时导致自己左高有底，此时先左旋转该节点的左子树，这样达到了仅仅右旋转的条件，然后对该节点右旋转，因此先左后右旋转的两个要点：
+
+- 左高右底
+- 插入到节点左子树的右边右边
+
+```
+if (balance > 1 && this->_balance(node->l_child) < 0) {
+    node->l_child = this->_left_rotate(node->l_child);
+    return this->_right_rotate(node); 
+}
+```
+
+图示演示旋转过程（注意图示中标出的高度）：
+
+![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/lr-rotate.png)
+		
+
+<h5 id='2.4'> 2.4、先右后左旋转 </h5>
+
+节点本来平衡，由于右边插入了一个元素，而且插入到了右子节点的左边，导致右子树左高，右底的同时导致自己右高左底，此时先右旋转该节点的右子树，这样达到了仅仅左旋转的条件，然后对该节点左旋转，因此先右后左旋转的两个要点：
+
+- 左低右高
+- 插入到了右子树的左边
+
+```
+if (balance < -1 && this->_balance(node->r_child) > 0) {
+    node->r_child = this->_right_rotate(node->r_child);
+    return this->_left_rotate(node);
+}
+```
+
+图示演示旋转过程（注意图示中标出的高度）：
+
+![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/rl-rotate.png)
+		
