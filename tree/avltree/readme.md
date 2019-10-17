@@ -9,6 +9,8 @@
 >> [2.2、左旋转](#2.2)
 >
 
+---
+
 
 由于二叉搜索树在极度恶劣情况下导致左右极度不平衡，其搜索时间和线性搜索无区别，因此引入了平衡，使左右高度近乎一样，或者完全平衡。
 
@@ -50,12 +52,12 @@ if (balance > 1 && this->compare_(&data, &(node->l_child->data)) < 0) {
 }
 ```
 
-演示如下，下图中标识出了每个节点的高度
+演示如下，下图中标识出了每个节点的高度（注意图示中标出的高度）：
 
 ![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/left-rotate.png)
 		
 		
-代码演示如下
+代码演示如下：
 		
 ```c
 // 1. 暂存不平衡节点的左子树
@@ -83,7 +85,7 @@ return nl;
 
 <h5 id='2.2'> 2.2、左旋转 </h5>
 
-树本来平衡，由于右边插入了一个元素，而且插入到了最右边，导致高高，左底，此时左旋转，只进行左旋转的两个要点：
+树本来平衡，由于右边插入了一个元素，而且插入到了最右边，导致右高，左底，此时左旋转，因此只进行左旋转的两个要点：
 
 - 左右不平衡
 - 插入到最右边
@@ -94,9 +96,9 @@ if (balance < -1 && this->compare_(&data, &(node->r_child->data)) > 0) {
 }
 ```
 
-图示演示旋转过程
+图示演示旋转过程（注意图示中标出的高度）：
 
-![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/left-rotate.png)
+![](https://github.com/DingKingTim/datastructure/blob/master/tree/media/right-rotate.png)
 		
 
 代码演示如下：
