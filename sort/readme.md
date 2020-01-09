@@ -17,3 +17,16 @@
 
 ![select_sort](https://github.com/DingKingTim/datastructure/blob/master/tree/media/select_sort.png)
 
+
+<h3 id=2> 2、插入排序 </h3>
+
+<h4 id=2.1> 复杂度 </h4>
+
+  - 时间： 内外两层循环，因此是 O(n^2)
+  - 内存空间：有限的范围内，额外开辟了一个空间用来存储临时比较key，内存 ≈ 元素个数 * 元素大小
+
+<h4 id=1.2> 算法原理 </h4>
+
+算法原理同纸牌，每次借一张牌，然后从后往前依次比较，找到合适位置插入
+
+![insert sort](https://github.com/DingKingTim/datastructure/blob/master/tree/media/insert_sort.png)
