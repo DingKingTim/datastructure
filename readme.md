@@ -1,6 +1,6 @@
 ## 数据结构 c++ 语言描述
 
-> [搜索](https://github.com/DingKingTim/datastructure/blob/master/sort/readme.md)
+> [排序](https://github.com/DingKingTim/datastructure/blob/master/sort/readme.md)
 >
 > [树的概念及一般操作](https://github.com/DingKingTim/datastructure/blob/master/tree/tree/readme.md)
 >
